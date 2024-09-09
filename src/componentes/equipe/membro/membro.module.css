@@ -31,7 +31,7 @@
     .imagem{
         width: var(--tamanho-mobile);
         height: var(--tamanho-mobile);
-        margin-right: 16px;
+        margin-right: 8px;
     }
     
     .nome{

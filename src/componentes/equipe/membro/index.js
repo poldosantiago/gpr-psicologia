@@ -5,7 +5,7 @@ function Membro({numeroMembro, nome, especialidade, hobbies}) {
         <div className={styles.membro}>
             <img 
                 className={styles.imagem}
-                src={`${process.env.PUBLIC_URL}/imagens/membro${numeroMembro}.png`} 
+                src={`${process.env.PUBLIC_URL}/imagens/membro${numeroMembro}.jpeg`} 
                 alt={`imagem do ${numeroMembro}º membro da equipe de psicólogos`}
             />
 
