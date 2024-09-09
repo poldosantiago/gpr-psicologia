@@ -1,0 +1,25 @@
+.link{
+    color:var(--color8);
+    font-size: 16px;
+    padding: 0.6em 1em;
+    text-decoration: none;
+}
+
+.link:hover{
+    background-color: var(--color6);
+    border-radius: 20px;
+    font-weight: bolder;
+}
+
+.retro_link{
+    color: var(--color8);
+    text-decoration: none;
+    width: 100%;
+    text-align: right;
+    padding: 1rem;
+    border-bottom: 1px solid var(--color6);
+}
+
+.retro_link:hover{
+    background-color: var(--color6);
+}

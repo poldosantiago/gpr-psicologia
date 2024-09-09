@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "nome": "Graziela Dias",
+        "especialidade": "Psicóloga Clínica",
+        "hobbies": " livros e séries, ama conhecer novos lugares, apaixonada por histórias"
+    },
+    {
+        "id": 2,
+        "nome": "Paula Gusmão",
+        "especialidade": "Psicóloga Clínica",
+        "hobbies": "adora viajar, é poetisa e escritora"
+    },
+    {
+        "id": 3,
+        "nome": "Rafael Santiago",
+        "especialidade": "Psicólogo Clínico",
+        "hobbies": "séries, games e livros"
+    }
+]

@@ -1,0 +1,17 @@
+.equipe{
+    padding: 0px 8px;
+    width: 100%;
+    /* width: 1400px; */
+    /* background-color: aqua; */
+}
+
+.membros_content{
+    display: flex;
+    justify-content: space-between;
+}
+
+@media only screen and (max-width: 600px) {
+    .membros_content{
+        flex-direction: column;
+    }
+}

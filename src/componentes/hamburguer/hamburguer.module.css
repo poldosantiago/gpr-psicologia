@@ -1,0 +1,42 @@
+.hamburguer{
+    padding: 4px 8px;
+    border: 1px solid var(--color6);
+    border-radius: 5px;
+    display: none;
+    margin-right: 12px;
+}
+
+.hamburguer:hover{
+    border-color: var(--color8);
+}
+
+.hamburguer > i{
+    color: var(--color8);
+}
+
+/*----------------------*/
+
+.menu_retratio{
+    position: absolute;
+    top: 50px;
+    right: 0;
+    display: none;
+    background-color: var(--color7);
+    border-top: 1px solid var(--color6);
+
+    width: 100%;
+    
+    flex-direction: column;
+    align-items: last baseline;
+    z-index: 5;
+}
+
+.ativo{
+    display: flex;
+}
+
+@media only screen and (max-width: 600px) {
+    .hamburguer{
+        display: inline;
+    }
+}

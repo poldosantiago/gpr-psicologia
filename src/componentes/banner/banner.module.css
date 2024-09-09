@@ -1,0 +1,59 @@
+.banner{
+    /* width: 1400px; */
+    width: 100%;
+    min-height: 450px;
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: aqua;
+
+    border-radius: 12px;
+
+    position: relative;
+}
+
+.titulo{
+    /* background-color: red; */
+    display: block;
+    width: 100%;
+    color:var(--color7);
+    font-size: 58px;
+    font-weight: bold;
+    text-align: center;
+    /* text-shadow: 1px 1px 3px rgba(0, 0, 0, 1); */
+
+    position: absolute;
+    top: 40%;  /* position the top  edge of the element at the middle of the parent */
+    left: 50%; /* position the left edge of the element at the middle of the parent */
+    transform: translate(-50%, -50%); /* This is a shorthand of translateX(-50%) and translateY(-50%) */
+
+}
+
+.descricao{
+    color:var(--color7);
+    font-size: 18px;
+    text-align: center;
+    /* text-shadow: 1px 1px 3px rgba(0, 0, 0, 1); */
+
+    position: absolute;
+    top: 60%;  /* position the top  edge of the element at the middle of the parent */
+    left: 50%; /* position the left edge of the element at the middle of the parent */
+    transform: translate(-50%, -50%); /* This is a shorthand of translateX(-50%) and translateY(-50%) */
+
+}
+
+
+@media only screen and (max-width: 600px) {
+    .banner{
+        border-radius: 0px;
+    }
+
+    .titulo{
+        font-size: 40px;
+    }
+    
+    .descricao{
+        font-size: 15px;
+    }
+}

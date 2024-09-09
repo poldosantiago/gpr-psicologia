@@ -1,0 +1,17 @@
+:root{
+	/*cores*/
+	--color1: #9d5547;
+	--color2: #fcece4;
+	--color3: #883d2f;
+	--color4: #99776e;
+	--color5: #d3bcac;
+	--color6: #E5E8EB;
+	--color7: #FFFFFF;
+	--color8: #4e4e4e;
+	--color9: #5a5f39;
+	
+	/* fontes */
+	--fonte-padrao: 'Noto Sans', sans-serif;
+}
+
+
