@@ -1,6 +1,7 @@
 import Banner from "componentes/banner";
 import Cabecalho from "componentes/cabecalho";
 import Container from "componentes/container";
+import Contato from "componentes/contato";
 import Equipe from "componentes/equipe";
 
 function Inicio() {
@@ -15,6 +16,7 @@ function Inicio() {
                 />
 
                 <Equipe/>
+                <Contato/>
             </Container>
         </>
     );

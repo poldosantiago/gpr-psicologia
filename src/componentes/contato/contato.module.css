@@ -1,0 +1,66 @@
+.contato{
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo{
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--color9);
+    margin-bottom: 8px;
+}
+
+.form{
+    background-color: red;
+}
+
+.campo_content{
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    margin-bottom: 8px;
+}
+
+.campo_content label{
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.campo_content input[type="text"],
+.campo_content input[type="email"],
+.campo_content textarea{
+    border:none;
+    border-radius: 8px;
+    background-color: var(--color6);
+    padding: 16px 8px;
+    color: var(--color9);
+    margin-bottom: 8px;
+}
+
+.campo_content textarea{
+    resize: none;
+    height: 140px;
+}
+
+.form__botao{
+    border:none;
+    border-radius: 8px;
+    background-color: var(--color9);
+    padding: 16px 8px;
+    color: var(--color7);
+    cursor: pointer;
+    width: 450px;
+    font-weight: bold;
+}
+
+
+@media only screen and (max-width: 480px) {
+    .campo_content{
+        display: flex;
+        flex-direction: column;
+        width: 380px;
+        margin-bottom: 8px;
+    }
+}
