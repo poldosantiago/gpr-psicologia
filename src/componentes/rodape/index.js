@@ -25,7 +25,7 @@ function Rodape() {
                         <span className={styles.fundo_midia} ><YouTubeIcon fontSize="large" color="error" /></span>
                     </Link>
                     
-                    <Link to="https://wa.me/15551234567" target="_blank">
+                    <Link to="https://wa.me/5511914494753" target="_blank">
                         <span className={styles.fundo_midia} ><WhatsAppIcon fontSize="large" color="success" /></span>
                     </Link>
                     

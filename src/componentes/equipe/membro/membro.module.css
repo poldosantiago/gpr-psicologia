@@ -1,5 +1,5 @@
 :root{
-    --tamanho-imagem-desktop: calc((1400px / 3) - (8px * 4));
+    --tamanho-imagem-desktop: calc((1200px / 3) - (8px * 4));
     --tamanho-imagem-mobile: calc((600px / 3) - (8px * 4));
 }
 
