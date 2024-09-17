@@ -1,0 +1,1 @@
+export const TESTE = process.env.TESTE;

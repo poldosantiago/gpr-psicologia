@@ -10,8 +10,17 @@
     justify-content: space-between;
 }
 
-@media only screen and (max-width: 600px) {
+
+@media screen and (max-width: 620px) {
     .membros_content{
         flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .membros_content{
+        flex-direction: column;
+        align-items: stretch ;
     }
 }

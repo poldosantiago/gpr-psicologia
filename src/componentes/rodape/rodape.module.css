@@ -1,0 +1,41 @@
+.rodape{
+    height: 200px;
+    background-color: var(--color3);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.midias_sociais{
+    width: 300px;
+    height: 60px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fundo_midia{
+    background-color: var(--color7);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: pointer;
+
+    transition: 0.5s ease;
+}
+
+.fundo_midia:hover{
+	transform: rotateY(360deg);
+}
+
+.paragrafo{
+    color: var(--color7);
+}

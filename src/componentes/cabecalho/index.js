@@ -16,10 +16,10 @@ function Cabecalho() {
                 <CabecalhoLink url="./">
                     Home
                 </CabecalhoLink>
-                <CabecalhoLink url="./Favoritos">
+                <CabecalhoLink url="#quem_somos">
                     Quem Somos
                 </CabecalhoLink>
-                <CabecalhoLink url="./Favoritos">
+                <CabecalhoLink url="#contato">
                     Contato
                 </CabecalhoLink>
             </nav>

@@ -3,6 +3,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
+    /* background-color: blueviolet; */
 }
 
 .titulo{
@@ -13,14 +15,14 @@
 }
 
 .form{
-    background-color: red;
+    /* background-color: red; */
 }
 
 .campo_content{
     display: flex;
     flex-direction: column;
-    width: 450px;
     margin-bottom: 8px;
+    width: 480px;
 }
 
 .campo_content label{
@@ -51,8 +53,25 @@
     padding: 16px 8px;
     color: var(--color7);
     cursor: pointer;
-    width: 450px;
     font-weight: bold;
+    width: 100%;
+    transition: all 0.5s;
+    border: 1px solid transparent;
+}
+
+.form__botao:hover{
+    background-color: var(--color7);
+    color: var(--color9);
+    border-color: var(--color9);
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+    .campo_content{
+        width: 400px;
+    }
 }
 
 
@@ -60,7 +79,7 @@
     .campo_content{
         display: flex;
         flex-direction: column;
-        width: 380px;
+        width: 340px;
         margin-bottom: 8px;
     }
 }

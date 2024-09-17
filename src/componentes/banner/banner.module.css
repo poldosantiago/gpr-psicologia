@@ -43,9 +43,21 @@
 
 }
 
+@media screen and (max-width: 620px) {
+    .titulo{
+        font-size: 40px;
+    }
+    
+    .descricao{
+        top: 70%; 
+        font-size: 18px;    
+        /* background-color: aquamarine; */
+        width: 80%;
+    }
+}
 
 @media only screen and (max-width: 480px) {
-    .banner{
+    /* .banner{
         border-radius: 0px;
     }
 
@@ -54,6 +66,6 @@
     }
     
     .descricao{
-        font-size: 15px;
-    }
+        font-size: 16px;
+    }  */
 }
