@@ -29,7 +29,7 @@ function Rodape() {
                         <span className={styles.fundo_midia} ><WhatsAppIcon fontSize="large" color="success" /></span>
                     </Link>
                     
-                    <Link to="https://www.tiktok.com/" target="_blank">
+                    <Link to="https://www.tiktok.com/@gprpsicologia?_t=8pnYaEmsl78&_r=1" target="_blank">
                         <span className={styles.fundo_midia} ><TiktokIcon /></span>
                     </Link>
 
